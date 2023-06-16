@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+/* Body */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #111;
+    overflow-x: hidden;
+}
+
+/* Body */
+
 /* Nav */
 
 nav{
@@ -65,3 +85,23 @@ nav ul li a{
 }
 
 /* Nav */
+
+/* Main */
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scroll-snap-align: center;
+    gap: 1rem;
+}
+
+main h1{
+    color: white;
+    font-size: 8rem;
+    text-shadow: 0 0 10px #fff;
+}
+
+/* Main */
