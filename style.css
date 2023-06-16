@@ -7,20 +7,17 @@
 /* Nav */
 
 nav{
-    height: 10vh;
+    height: 6vh;
     width: 100%;
     background: rgba(34, 34, 34, 0.5);
     position: fixed;
     display: flex;
     justify-content: center;
-    backdrop-filter: blur(5px);
     z-index: 100;
 }
 
 .logo{
     padding: 10px;
-    margin-left: 1.5rem;
-    transition: all 0.1s ease;
     position: relative;
     display: flex;
     justify-content: center;
@@ -34,14 +31,13 @@ nav{
     height: 100%;
     background: #333;
     border-radius: 50%;
-    transition: 0.5s;
     color: #fff;
 }
 
 
 .logo img{
     filter: invert(1);
-    height: 40%;
+    height: 60%;
 }
 
 nav ul{
@@ -55,19 +51,17 @@ nav ul li {
     padding: 15px 0;
     position: relative;
     list-style: none;
-    margin: 20px;
+    margin: 10px;
 }
 
 nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 1.2rem;
-    padding: 15px 0;
+    padding: 10px 0;
     position: relative;
     top: 0;
     left: 0;
-    transition: all 0.2s ease-in-out;
-    text-shadow: 0 0 5px;
 }
 
 /* Nav */
