@@ -20,6 +20,8 @@ html{
     background-color: #000; /* Barva pozadí */
     padding: 10px; /* Odstup od obsahu */
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
