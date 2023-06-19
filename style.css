@@ -68,12 +68,16 @@ section {
     scroll-snap-align: center;
 }
 
-section div img{
+section p{
+    padding: 10px;
+}
+
+.image img{
     width: 50%;
 }
 
 .macOS {
-    font-size: 70px;
+    font-size: 50px;
 }
 
 /* Sec */
