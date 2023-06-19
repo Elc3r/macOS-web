@@ -52,8 +52,9 @@ html{
 
 /* Sec */
 
-.section {
+section {
     height: 100vh; /* Celá výška stránky */
+    padding: 50px; /* Ohraničení textu */
     background-color: #f2f2f2; /* Barva pozadí sekce */
     display: flex;
     justify-content: center;
