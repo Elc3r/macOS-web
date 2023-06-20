@@ -24,12 +24,7 @@ html{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar-brand {
-    color: #fff; /* Barva textu */
-    font-size: 24px;
-    text-decoration: none;
+    z-index: 100;
 }
 
 .navbar-nav {
@@ -50,6 +45,60 @@ html{
     text-decoration: underline;
 }
 
+.menu-icon {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 101;
+    color: black;
+  }
+  
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(5px);
+    transform: translateX(100%);
+    z-index: 100;
+  }
+  
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 50px;
+    list-style-type: none;
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 20px;
+  }
+  
+  .mobile-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .menu-logo{
+    margin-bottom: 20px;
+  }
+  
+  #menu-toggle:checked ~ .mobile-menu {
+    transform: translateX(0);
+  }
+
+  #menu-toggle:checked ~ .menu-icon {
+    color: white;
+  } 
 
 /* Nav */
 
@@ -85,3 +134,18 @@ section p{
 }
 
 /* Sec */
+
+@media screen and (max-width: 700px) {
+    .navbar{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+}
+@media screen and (min-width: 701px) {
+    .menu-icon{
+        display: none;
+    }
+}
+  
