@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css" />
     <link rel="icon" type="image/x-icon" href="/images/MacOS_logo.png">
     <title>macOS</title>
 </head>
@@ -16,16 +17,18 @@
             >
         </a>
         <ul class="navbar-nav">
-            <li class="nav-item"><a href="#" class="nav-link">nav 1</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">nav 2</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">nav 3</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">nav 4</a></li>
+            <li class="nav-item"><a href="#ui" class="nav-link">Uživatelské rozhraní</a></li>
+            <li class="nav-item"><a href="#spotlight" class="nav-link">Spotlight</a></li>
+            <li class="nav-item"><a href="#reliability" class="nav-link">Spolehlivost</a></li>
+            <li class="nav-item"><a href="#secure" class="nav-link">Bezpečnost</a></li>
+            <li class="nav-item"><a href="#software" class="nav-link">Software</a></li>
+            <li class="nav-item"><a href="#apple" class="nav-link">Integrace</a></li>
         </ul>
     </nav>
     <section class="macOS">
         <h1>macOS</h1>
     </section>
-    <section>
+    <section id="ui">
         <div>
             <h1>Uživatelské rozhraní</h1>
             <p>
@@ -37,7 +40,20 @@
             <img src="Images-of-Apple-WWDC23-macOS-Sonoma/Apple-WWDC23-macOS-Sonoma-Widgets-230605.png">
         </div>
     </section>
-    <section>
+    <section id="spotlight">
+        <div>
+            <h1>Spotlight</h1>
+            <p class="button"><kbd class="kbc-button">⌘</kbd> + <kbd class="kbc-button">mezerník</kbd></p>
+            <p>
+                Umožňuje uživatelům rychle vyhledávat aplikace, soubory, kontakty, informace z internetu, ale umí i
+                vypočítat příkalad, převést jednotky, zobrazit počasí a mnoho dalšího.
+            </p>
+            <div class="image">
+                <img src="images/spotlight.png">
+            </div>
+        </div>
+    </section>
+    <section id="reliability">
         <div>
             <h1>Spolehlivost a stabilita</h1>
             <p>
@@ -50,7 +66,7 @@
             <img src="images/mbp-kernel_panic.png">
         </div>
     </section>
-    <section>
+    <section id="secure">
         <div>
             <h1>Vysoká úroveň bezpečnosti</h1>
             <p>
@@ -63,7 +79,7 @@
                 <img src="images/Encryption_and_Data_Protection.png">
         </div>
     </section>
-    <section>
+    <section id="software">
         <div>
             <h1>Široká nabídka softwaru a aplikací</h1>
             <p>
@@ -76,7 +92,7 @@
             <img src="images/install.png">
         </div>
     </section>
-    <section>
+    <section id="apple">
         <div>
             <h1>Integrace s dalšími zařízeními Apple</h1>
             <p>
@@ -88,14 +104,6 @@
         </div>
         <div class="image">
             <img src="images/continuity.png">
-        </div>
-    </section>
-    <section>
-        <div>
-            <h1>Podpora pro vývojáře</h1>
-            <p>
-                tpd
-            </p>
         </div>
     </section>
 </body>

@@ -73,11 +73,15 @@ section p{
 }
 
 .image img{
-    width: 50%;
+    width: 40%;
 }
 
 .macOS {
     font-size: 50px;
+}
+
+.button{
+    font-size: 20px;
 }
 
 /* Sec */
